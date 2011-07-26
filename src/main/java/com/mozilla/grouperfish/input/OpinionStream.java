@@ -69,7 +69,7 @@ public class OpinionStream implements Iterable<Document> {
                         "L{} skipping record (wrong number of columns) {}\n",
                         i_, Arrays.toString(row_));
                     ++i_;
-                    next();
+                    row_ = null;
                     return hasNext();
                 }
                 ++i_;

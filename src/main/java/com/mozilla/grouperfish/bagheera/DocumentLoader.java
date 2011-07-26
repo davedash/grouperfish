@@ -6,7 +6,7 @@ import com.mozilla.grouperfish.model.Document;
 public class DocumentLoader extends Loader<Document> {
 
     public DocumentLoader(final String namespace) {
-        super(namespace + "-docs", Converters.forDocuments());
+        super(namespace, Converters.forDocuments());
     }
 
 }

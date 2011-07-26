@@ -35,8 +35,8 @@ public class Grouperfish {
 	static public void main(final String[] args) {
 
 	    final String USAGE = "Usage: java -jar grouperfish.jar [load PREFIX | help]\n"
-            + "   load PREFIX read input.mozilla.org tsv data from stdin to bagheera\n"
-            + "   help        print this message and exit";
+            + "   load URL read input.mozilla.org tsv data from stdin to bagheera map at URL\n"
+            + "   help     print this message and exit";
 
 		final List<String> arguments = Arrays.asList(args);
 		int i = 0;
